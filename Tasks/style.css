@@ -1,0 +1,135 @@
+.containert1 {
+    display: flex;
+    gap: 18px;
+}
+
+.textt1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.b1 {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(26, 201, 26);
+    border-radius: 8px;
+    position: relative;
+    right: 14px;
+    margin-bottom: 8px;
+}
+
+.b2 {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(68, 127, 253);
+    border-radius: 8px;
+    position: relative;
+    right: 14px;
+    margin-bottom: 8px;
+}
+
+.b3 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 8px;
+    position: relative;
+    right: 14px;
+    margin-bottom: 8px;
+}
+
+.b4 {
+    height: 60px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 8px;
+    position: relative;
+    right: 14px;
+    margin-bottom: 8px;
+}
+
+.hov:hover {
+    right: 12px;
+    cursor: pointer;
+}
+
+.containert2 {
+    border: 2px solid black;
+    height: auto;
+    width: 275px;
+}
+
+.containert2 p {
+    background-color: rgb(248, 237, 33);
+    margin: 40px;
+}
+
+.containert3 {
+    height: 450px;
+    width: 520px;
+    display: flex;
+    justify-content: baseline;
+    background-color: rgb(199, 236, 78);
+    padding-top: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links {
+    width: 200px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    list-style-type: none;
+    padding: 6px 0px 0px 20px;
+    
+}
+
+.links ul li{
+    width: 120px;
+    background: linear-gradient(to right, #fff, #fff, #fff 85%, #000 85%);
+    padding: 4px 4px;
+}
+
+.links ul li a{
+    text-decoration: none;    
+}
+
+.links ul li a:hover{
+    color: purple; 
+}
+
+.textt3 {
+    width: 400px;
+    margin-right: 8px;
+    color: purple;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.textt3 h1 {
+    margin-top: 0px;
+}
+
+.containert5 {
+    border: 2px solid black;
+    height: auto;
+    width: 300px;
+    padding: 40px;
+}
+
+.containert5 div {
+    width: 280px;
+    background-color: rgb(248, 237, 33);
+}
+
